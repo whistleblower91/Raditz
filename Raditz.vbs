@@ -10,7 +10,7 @@ Main()
 
 Sub Main()
  Payload() 
- WScript.Sleep 5000 
+ WScript.Sleep 7000 
  SearchAndRun() 
 End Sub 
 
